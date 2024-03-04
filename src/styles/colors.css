@@ -1,0 +1,128 @@
+header {
+    background: var(--color-gray1);
+    border-bottom: 2px solid var( --color-brand-2_blue);
+}
+
+
+.logo {
+    color: var(--color-whitFixed);
+}
+
+
+.btn_exit {
+    color: var(--color-whitFixed);
+}
+
+
+.input_title {
+    border: 2px solid var(--color-gray4);
+    border-radius: 4px;    
+}
+
+
+::placeholder, :focus   {
+  border-color: var(--color-brand-1_blue);
+}
+
+
+.input_text {
+    border: 2px solid var(--color-gray4);
+    border-radius: 4px;
+}
+
+
+::placeholder, :focus   {
+    border-color: var(--color-brand-1_blue);
+  }
+
+.cardName, .postName {
+    color: var(--color-gray0);
+}
+
+
+.cardStack, .postStack, .suggestUserStack, .postText {
+    color: var(--color-gray2);
+}
+
+
+.postUser {
+    color: var(--color-gray3);
+}
+
+
+.title__suggest--follow {
+    color: var(--color-gray0);
+}
+
+
+.btn_post {
+    background: var(--color-brand-1_blue);
+    color: var(--color-whitFixed);
+}
+
+
+.btn_post:hover {
+    background: var(--color-brand-2_blue);
+} 
+
+
+.btn_openPost {
+    background: var(--color-gray1);
+    color: var(--color-whitFixed);
+}
+
+
+.btn_openPost:hover {
+   background: var(--color-gray0);
+}
+
+
+.btn_follow {
+    background: var(--color-whitFixed);
+    border: 1px solid var(--color-gray0);
+    border-radius: 2px;
+    color: var(--color-gray1);
+}
+
+
+.btn_follow:hover {
+   background: rgba(0, 17, 255, 0.055);
+   border: 1px solid var(--color-brand-1_blue);
+   color: var(--color-brand-1_blue)      
+}
+
+
+
+.btn__follow--active {
+    background: var(--color-brand-2_blue);
+    color: var(--color-whitFixed);
+    border: none;   
+}
+
+
+.btn__follow--active:hover {
+    background: var(--color-brand-2_blue);
+    color: var(--color-whitFixed);
+    border: none;   
+}
+
+
+.fa-heart, .liked {
+    color: var(--color-like_red);
+}
+
+
+.liked {
+    color: black
+}
+
+
+dialog::backdrop {
+    background-color: #191c1fbd;
+}
+
+
+.modal__btn--closed {
+    background-color: var(--color-gray4);
+    color: var(--color-gray3);   
+}

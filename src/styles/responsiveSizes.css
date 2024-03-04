@@ -1,0 +1,461 @@
+
+
+    
+    /* ------------MODAL------------ */
+
+    dialog {
+        width: 50rem;
+        position: relative;
+        border: none;
+        border-radius: 0.625rem;
+    }
+
+
+    .modal_postImage {
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 50%;
+    }
+
+
+    .modal_postName {
+        margin-top: -3.125rem;
+        margin-left: 4.0625rem;
+    }
+
+
+    .modal_postStack {
+        margin-left: 4.0625rem;
+        margin-top: 0.625rem;
+    }
+
+
+    .modal_postTitle {
+        margin-top: 1.875rem;
+    }
+
+
+    .modal_postText {
+        margin-top: 1.875rem;
+    }
+
+
+    .modal_postName {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.375rem;
+        line-height: 1.5rem;
+    }
+
+
+    .modal_postStack {
+        font-size: 0.875rem;
+    }
+
+
+    .modal_postTitle {
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+
+
+    .modal_postText {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+
+    .modal__btn--closed {
+        position: absolute;
+        font-size: 1.125rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        margin-left: 47.8125rem;
+        margin-top: -1.5625rem;
+        border-radius: 50%;
+    }
+
+
+
+
+
+
+
+
+@media (max-width: 1650px) {
+
+
+    .btn_exit {
+        margin-right: 150px;
+    }
+
+    .title__suggest--follow {  
+        display: flex;
+        flex-direction: row;
+        margin-left: 800px;
+        text-align: center;
+     }
+    
+    
+    .position__top--right{
+        margin-left:780px;   
+      }
+       
+
+      .btn_follow {
+        cursor: pointer;
+        margin-left: 300px;  
+      }
+    
+}
+
+@media (max-width: 1175px){
+   .title__suggest--follow {  
+        display: flex;
+        flex-direction: row;
+        margin-left: 600px;
+        text-align: center;
+     }
+    
+    
+    .position__top--right{
+        margin-left: 600px;   
+      }
+       
+
+      .btn_follow {
+        cursor: pointer;
+        margin-left: 300px;  
+      }
+}
+
+
+@media (max-width: 990px){
+    .title__suggest--follow {  
+         display: flex;
+         flex-direction: row;
+         margin-left: 500px;
+         text-align: center;
+      }
+     
+     
+     .position__top--right{
+         margin-left: 500px;   
+       }
+        
+ 
+       .btn_follow {
+         cursor: pointer;
+         margin-left: 260px;  
+       }
+ }
+
+
+
+
+
+ 
+
+
+@media (max-width: 850px) {
+
+   
+    
+   
+    .postUser {
+        margin-top: 0.9375rem;
+        margin-left: -13.75rem;
+    }
+
+
+    .btn_openPost {
+        width: 5.75rem;
+        height: 2.375rem;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        margin-left: -13.75rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+
+    .logo {
+        width: 12.5rem;
+        height: 1.3rem;
+        margin-left: 20px;
+      }
+      
+      
+      .btn_exit {
+        margin-right: 30px;
+      }
+   
+    
+
+      .cardImage {
+      
+       margin-left: -210px;
+       
+      }
+      
+      
+      .cardName {
+       
+        margin-left: -150px;
+      }
+      
+      
+      .cardStack {
+        margin-left: -150px;
+   
+      }
+
+
+    .input_post {
+        width: 95%;
+        margin-left: -3.125rem;
+    }
+
+    
+
+
+    .btn_post {
+        margin-left: 99.5%;
+        margin-top: 0.75rem;
+    }
+
+
+     .title__suggest--follow {  
+       display: flex;
+       flex-direction:row;
+       margin-top: 15rem;
+       margin-left: 380px;
+       text-align: center;
+       width: 18.75rem;
+    
+    }
+    
+
+    .suggestUserImage {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-top: 0.625rem;
+    
+      }
+
+    #suggest-users-container{
+       display: flex;
+       justify-content: space-around;
+       flex-direction: row;
+       margin-top: 6.25rem;
+       margin-left: -370px;
+   
+    }
+
+    .position__top--right{
+      margin-left:-18.75rem;
+      margin-top: 17.5rem;
+      
+    }
+     
+    .btn_follow {
+        width: 72px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: -0.625rem;
+        margin-top: 5rem;
+      }
+
+
+      .btn__follow--active {
+        width: 87px;
+      }
+
+      .btn_follow {
+        background: var(--color-whitFixed);
+        border: 1px solid var(--color-gray0);
+        border-radius: 2px;
+        color: var(--color-gray1);
+    }
+    
+    
+    .btn_follow:hover {
+       background: rgba(0, 17, 255, 0.055);
+       border: 1px solid var(--color-brand-1_blue);
+       color: var(--color-brand-1_blue)      
+    }
+    
+    
+    
+    .btn__follow--active {
+        background: var(--color-brand-2_blue);
+        color: var(--color-whitFixed);
+        border: none;   
+    }
+    
+    
+    .btn__follow--active:hover {
+        background: var(--color-brand-2_blue);
+        color: var(--color-whitFixed);
+        border: none;   
+    }
+    
+
+
+
+      
+    .post {
+        border-radius: 0.625rem;
+        padding: 1.25rem;
+        margin-bottom: 1.25rem;
+        width: 40%;
+        margin-left: 13.5625rem;
+        margin-top: 9.375rem;
+        margin-bottom: -13.75rem;
+    }
+
+
+    .postImage {
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 50%;
+        margin-left: -13.125rem;
+        margin-top: 3.125rem;
+    }
+
+
+    .postName {
+        margin-top: -3.125rem;
+        margin-left: -8.75rem;
+    }
+
+
+    .postStack {
+        margin-top: 0.625rem;
+        margin-left: -8.75rem;
+    }
+
+
+    .postTitle {
+        margin-top: 1.875rem;
+        margin-left: -13.75rem;
+    }
+
+
+    .postText {
+        margin-top: 1.875rem;
+        margin-left: -13.75rem;
+    }
+
+
+    .postUser {
+        margin-top: 0.9375rem;
+        margin-left: -13.75rem;
+    }
+
+
+    .btn_openPost {
+        width: 5.75rem;
+        height: 2.375rem;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        margin-left: -13.75rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+    /* --------------MODAL------------ */
+
+    dialog {
+        width: 100%;
+        height: 31.25rem;
+        margin-top: 11.875rem;
+        position: relative;
+        border: none;
+        border-radius: 0.625rem;
+    }
+
+
+    .modal_postImage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+
+    .modal_postName {
+        margin-top: -3.125rem;
+        margin-left: 4.0625rem;
+    }
+
+
+    .modal_postStack {
+        margin-left: 4.0625rem;
+        margin-top: 0.625rem;
+    }
+
+
+    .modal_postTitle {
+        margin-top: 1.875rem;
+    }
+
+
+    .modal_postText {
+        margin-top: 1.875rem;
+    }
+
+
+    .modal_postName {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.375rem;
+        line-height: 1.5rem;
+    }
+
+
+    .modal_postStack {
+        font-size: 0.875rem;
+    }
+
+
+    .modal_postTitle {
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+
+
+    .modal_postText {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+
+    dialog {
+        width: 300px;
+        position: relative;
+        margin-left: 23px;
+        border: none;
+        border-radius: 0.625rem;
+      }
+      
+      
+
+
+    .modal__btn--closed {
+        position: absolute;
+        font-size: 1.125rem;
+        width: 35px;
+        height: 2.1875rem;
+        margin-left: 82%;
+        margin-top: -35px;
+        border-radius: 50%;
+    }
+
+
+
+   
+
+}

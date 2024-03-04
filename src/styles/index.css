@@ -1,0 +1,202 @@
+
+header {
+ 
+ 
+  width: 100%;
+  height: 6.25rem;
+  top: 0rem;
+}
+
+
+.logo {
+  width: 12.5rem;
+  height: 1.3rem;
+  margin-left: 5rem;
+}
+
+
+.btn_exit {
+  margin-right: 12.5rem;
+}
+
+
+.position__top--left {
+  border-radius: 0.625rem;
+  padding: 4.375rem;
+  width: 56.25rem;
+  margin-top: -3.75rem;
+  margin-bottom: -1.25rem;
+  margin-left: 10.625rem;
+}
+
+
+.suggest__users--section1 {
+       
+  height: 31.25rem;
+  margin-top: 200px;
+  
+}
+
+.title__suggest--follow {  
+  margin-left: 1200px;  
+  margin-top: 80px;
+}
+.position__top--right{
+  margin-left:1170px;   
+  margin-top: 70px;
+}
+.btn_follow {
+  cursor: pointer;
+  margin-left: 300px;  
+}
+
+
+
+.cardImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-left: -170px;
+}
+
+
+.cardName {
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
+.cardStack {
+  margin-left: -100px;
+  margin-top: -20px;
+}
+
+
+.input_post {
+  width: 40%;
+}
+
+.input_title {
+  margin-left: 4.0625rem;
+  width: 100%;
+  height: 3.25rem;
+  margin-top: -0.625rem;
+  text-indent: 3%;
+}
+
+
+.input_text {
+  margin-left: 4.0625rem;
+  width: 100%;
+  height: 8.25rem;
+  padding-bottom: 5rem;
+  margin-top: 1.5625rem;
+  text-indent: 3%;
+}
+
+
+.btn_post {
+width: 4.3125rem;
+height: 2.375rem;
+border-radius: 0.25rem;
+cursor: pointer;
+margin-left: 100%;
+margin-top: 1.5625rem;
+}
+
+
+
+.post {
+  border-radius: 0.625rem;
+  padding: 10px;
+  margin-bottom: 1.25rem;
+  width: 40%;
+  margin-left: 50px;
+  margin-top: 0rem;
+}
+
+
+.postImage {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+}
+
+
+.postName {
+  margin-top: -3.125rem;
+  margin-left: 4.0625rem;
+}
+
+
+.postStack {
+  margin-left: 4.0625rem;
+  margin-top: 0.625rem;
+}
+
+
+.postTitle {
+  margin-top: 1.875rem;
+}
+
+
+.postText {
+  margin-top: 1.875rem;
+}
+
+
+.postUser {
+  margin-top: 0.9375rem;
+}
+
+
+.btn_follow {
+  width: 72px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 25rem;
+}
+
+
+.btn__follow--active {
+  width: 87px;
+}
+
+
+.suggestUserImage {
+  width: 3.4375rem;
+  height: 3.4375rem;
+  border-radius: 50%;
+  margin-top: 0.625rem;
+}
+
+
+.suggestUserName {
+  margin-top: -3.4375rem;
+  margin-left: 4.0625rem;
+}
+
+
+.suggestUserStack {
+  margin-left: 4.0625rem;
+  margin-top: 0.625rem;
+}
+
+.suggestFollow {
+  margin-top: -3.4375rem;
+}
+
+
+.card__container--section2 {
+  width: 60%;
+  margin-top: -31.25rem;
+}
+
+
+
+
+
+
+
+

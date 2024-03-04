@@ -1,0 +1,31 @@
+:root {
+    --color-brand-1_blue: #4263Eb;
+    --color-brand-2_blue: #364fc7;
+    --color-gray0: #0a0c0d;
+    --color-gray1: #212529;
+    --color-gray2: #495057;
+    --color-gray3: #868E96;
+    --color-gray4: #DEE2E6;
+    --color-gray5: #F8F9FA;
+    --color-opacity-1: #rgba(33, 37, 41, 0.5);
+    --color-whitFixed: #FFFFFF;
+    --color-like_red: #D7443E;
+
+    --font-weight-title-1: 700;
+    --font-weight-title-2: 600;
+    --font-size-title-1: 1.75rem;
+    --font-size-title-2: 1.25rem;
+    --line-height-title-1: 2.5rem;
+    --line-height-title-2: 1.5rem;
+
+    --font-weight-text-1: 400;
+    --font-weight-text-2: 400;
+    --font-weight-text-3: 400;
+    --font-size-text-1: 1rem; 
+    --font-size-text-2: 0.875rem;
+    --font-size-text-3: 0.75rem;
+    --line-height-text-1: 1.75rem;
+    --line-height-text-2: 1rem;
+    --line-height-text-3: 1rem;
+}
+
